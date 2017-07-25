@@ -242,7 +242,7 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -256,7 +256,7 @@ header .intro-text .intro-heading {
 header .intro-text .intro-lead-out {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 22px;
   margin-bottom: 25px;
 }
@@ -270,7 +270,7 @@ header .intro-text .intro-lead-out {
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -278,7 +278,7 @@ header .intro-text .intro-lead-out {
     font-weight: 700;
     font-size: 75px;
     line-height: 75px;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
   }
 }
 section {
