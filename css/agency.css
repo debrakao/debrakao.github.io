@@ -26,7 +26,7 @@ a:focus,
 a:active,
 a.active {
   outline: none;
-  color: #23bcb7;
+  color: #99efff;
 }
 a {
   color: #00d8ff;
@@ -221,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/background2.jpeg');
+  background-image: url('../img/balloons.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -256,9 +256,9 @@ header .intro-text .intro-heading {
 header .intro-text .intro-lead-out {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 15px;
+  margin-bottom: 15px;
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -267,10 +267,16 @@ header .intro-text .intro-lead-out {
   }
   header .intro-text .intro-lead-in {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 50px;
+  }
+  header .intro-text .intro-lead-out {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -398,17 +404,17 @@ section#contact .section-heading {
   color: white;
 }
 section#contact .form-group {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  padding: 15px;
 }
 section#contact .form-group input.form-control {
-  height: 50px;
+  height: 20px;
 }
 section#contact .form-group textarea.form-control {
-  height: 275px;
+  height: 263px;
 }
 section#contact .form-control:focus {
   border-color: #00d8ff;
@@ -443,6 +449,9 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
   color: #e74c3c;
+}
+label {
+  color: white;
 }
 footer {
   padding: 25px 0;
